@@ -4,7 +4,7 @@ import requests
 from crawler import parse_html
 
 
-class CrawlerTest(unittest.TestCase):
+class SMPCrawlerTest(unittest.TestCase):
     def setUp(self):
         self.urls = ['https://news.ycombinator.com/news', 'https://pymotw.com/2/unittest/']
 
