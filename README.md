@@ -17,8 +17,13 @@ The scraper then uses BeatuifulSoup to parse the content and finds if the conten
 
 ```
 
+### test
+```
+python test_crawler.py
+```
+
 ### steps
 
-`urls.csv` is the input file which has list of urls to processed
+`urls.csv` is the input file which has list of urls to be processed
 
 output `accepted.csv`, `rejected.csv` files will be created and the respective urls are put in to the respective files
